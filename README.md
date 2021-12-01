@@ -148,3 +148,35 @@ https://kochingchang.coderbridge.io/
 ![image](https://user-images.githubusercontent.com/90613715/144192917-3a3221d1-d2e8-495a-a328-678b46767f39.png)
 # Reference
 ![image](https://user-images.githubusercontent.com/90613715/144192992-4871fd6a-1603-4c11-9242-ca2a8bbc7a82.png)
+# Hands-on #3: RS485 + LoRa
+# Part 2: LoRa communication test
+### TASK C: MINILORA / NANO ASSEMBLING
+#### TASK D: LORA MINIDUINO TRANSMITTING/RECEIVING PRACTICE
+#### TASK E: LORA GATEWAY, AMEBA APPENDIX
+# Task C, D: LoRa node(Arduino nano)
+# Task E: Lora gateway (Ameba)
+![image](https://user-images.githubusercontent.com/90613715/144193294-b8ff2d41-1dc3-45d7-95b6-b7656e064f81.png)
+# Task C:
+### MiniLoRa / Nano
+#### assembling
+#### General and resource
+#### Arduino Nano / MiniLora Wiring
+#### LoRa SPI library intro.
+#### Example: LoRa master/slave demo
+# Assembly
+![image](https://user-images.githubusercontent.com/90613715/144193493-cd9b88e3-9f47-4512-ac06-4e932ad79cea.png)
+# General and resources
+### To make it easy for you to test MiniLoRa modules in the easiest way, we developed the test program with the Arduino IDE. Use the Arduino Nano MCU to connect the MiniLoRa module to the SPI interface. The LoRa long-distance low-power characteristics are used to transmit the sensed value data.After receiving the data transmitted by LoRa, the receiving end can use Ameba or MTK7697 built-in WiFi function to upload the data to the IoT platform in RESTful API or MQTT format respectively.
+![image](https://user-images.githubusercontent.com/90613715/144193738-0aa7e8a1-71d2-4e1f-bb35-985271bc2a86.png)
+# LoRa network architecture
+![image](https://user-images.githubusercontent.com/90613715/144193812-7497c2e5-4ba3-45d8-830a-c65328317849.png)
+# LoRa Node + LoRa Gateway (task CD,E)
+![image](https://user-images.githubusercontent.com/90613715/144193888-19179abe-7704-41b3-9dfd-c00f8d1d4000.png)
+# Arduino Nano / MiniLora Wiring
+### Arduino Nano MCU + MinLora (SPI interface) 
+![image](https://user-images.githubusercontent.com/90613715/144193995-b44ae782-bff8-4d5e-8044-168df028c302.png)
+# Arduino IDE
+### 1. Start Arduino IDE
+### 2. Set working folder: nano (restart)
+### 3. Confirm board, com port, processor
+### 4. Include libraries
